@@ -1,5 +1,5 @@
 {
-    "name": "lb308/flarum-ext-arabic",
+    "name": "flarum-ext-arabic",
     "type": "flarum-extension",
     "description": "تعريب الفلاروم",
     "keywords": ["locale"],
