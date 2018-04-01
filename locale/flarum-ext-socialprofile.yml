@@ -1,0 +1,13 @@
+davis-socialprofile:
+  forum:
+    edit:
+      edit: "עריכה"
+      add: "הוספה"
+      headtitle: "עריכת כפתורים"
+      title: "שם"
+      url: "קישור"
+      submit: "שמירה"
+      delete: "הסרה"
+      deletetitle: "הסרת כפתור"
+  admin:
+    test: "ניסיון"

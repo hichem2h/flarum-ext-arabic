@@ -1,0 +1,36 @@
+flarum-mentions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (reply autocompletion function).
+    composer:
+      reply_to_post_text: "مَجْمُوعُ الرُّدُودِ : #{number}"
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      others_text: => core.ref.some_others
+      post_mentioned_text: "{username} قَامَ بِالرَّدِّ عَلَى مُشَارَكَتِكَ"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} ذَكَرَ اسْمَكَ"
+
+    # These translations are displayed beneath individual posts.
+    post:
+      mentioned_by_self_text: "{users} قُمْتَ بِالرَّدِّ عَلَى هَذِهِ الْمُشَارَكَةِ"  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} قُمْتَ بِالرَّدِّ عَلَى هَذِهِ الْمُشَارَكَةِ"       # Can be pluralized to agree with the number of users!
+      others_text: => core.ref.some_others
+      quote_button: إِقْتِبَاسٌ لِلنَّصِّ
+      reply_link: => core.ref.reply
+      you_text: => core.ref.you
+
+    # These translations are used in the Settings page.
+    settings:
+      notify_post_mentioned_label: أَحَدُهُمْ قَامَ بِالرَّدِّ عَلَى إِحْدَى مُشَارَكَاتِكَ
+      notify_user_mentioned_label: أَحَدُهُمْ قَامَ بِذِكْرِ اسْمِكَ فِي إِحْدَى الرُّدُودِ
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      mentions_link: أَيْنَ ذُكِرَ اسْمِي؟

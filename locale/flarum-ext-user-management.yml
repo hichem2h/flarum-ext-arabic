@@ -1,0 +1,69 @@
+reflar-usermanagement:
+  admin:
+    strike_perm_item: הוסף עבירה
+    activate_perm_item: הפעל משתמשים ידנית
+    viewstrike_perm_item: צפה בעבירות המשתמש
+    nav:
+      title: רשימת משתמשים
+      desc: צפה ונהל את המשתמשים בקהילה
+    modal:
+      view:
+        number: מספר
+        no_strikes: "למשתמש אין עבירות שדווחו!"
+        content: פוסט
+        actor: על ידי
+        time: תאריך
+        reason: סיבה
+        link: קישור
+        remove: הסרה
+        title : "העבירות של {username}"
+      settings_title: הגדרות
+      email_switch: בטל את האפשרות להירשם באמצעות מייל
+      gender_label: הצג אפשרות לבחירת מין בהרשמה
+      age_label: הצג אפשרות לבחירת גיל בהרשמה
+      amount_label: מספר משתמשים לתצוגה בדף
+      recaptcha: "התאם לשימוש ב-ReCaptcha"
+      spam: הפעל את הגנת StopForumSpam
+    page:
+      activate: הפעל
+      online_text: מחובר
+      settings: הגדרות
+      list_title: משתמשים
+      load_more_button: טען עוד
+      about_text: "המשתמשים שלך במבט מהיר. לחץ על העין כדי להגיע לפרופיל המשתמש. לחץ על סימן האזהרה כדי לצפות בעבירות המשתמש."
+  forum:
+    post_controls:
+      strike_button: הוסף עבירה
+    signup:
+      age: גיל
+      gender: מין
+      male: זכר
+      female: נקבה
+      other: אחר
+    user:
+      settings:
+        button: גיל ומין
+        title: גיל ומין
+        save: שמור
+        success: נשמר בהצלחה.
+      age: "גיל: {age}"
+      controls:
+        strike_button: צפה בעבירות
+        activate_button: הפעל משתמש
+        modal: "העבירות של {username}"
+        previous: "העבירות של {username}"
+    modal:
+      post:
+        title: "הוסף עבירה למשתמש: {username}"
+        reason_placeholder: סיבת העבירה
+        strike_reason: סיבה
+        submit_button: הוסף עבירה
+      view:
+        number: מספר
+        no_strikes: "למשתמש אין עבירות שדווחו!"
+        content: פוסט
+        actor: על ידי
+        time: תאריך
+        reason: סיבה
+        link: קישור
+        remove: מחיקה

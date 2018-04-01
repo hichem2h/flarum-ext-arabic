@@ -1,0 +1,61 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: الْمَقَالَاتٌ الْمَنْبُوذَةُ
+      view_flags_label: أَشِّــــرْ عَلَى الْمَقَالَاتِ الْغَيْرِ مَرْغُوبٍ فِيهَا
+
+    # These translations are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: رَابِطُ الْمُجْتَمَعِ عَلَى الشَّبَكَةِ
+      title: خِيَارَاتُ التَّأْشِيرِ عَلَى الْمَقَالَاتِ الْمَنْبُوذَةِ
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: شُكْرًا لَكَ عَلَى إِعْلَامِنَا بِهَذَا الْمَقَالِ, سَنَتَحَقَّقُ مِنْهُ فِي أَقْرَبِ وَقْتٍ مُمْكِنٍ.
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: غَيْرُ مُلَائِمٍ
+      reason_inappropriate_text: "هذه المشاركة مسيئة أو غير لائقة أو تنتهك <a> إرشادات المنتدى </a> الخاصة بنا."
+      reason_off_topic_label: "خارج السياق"
+      reason_off_topic_text: هذه المشاركة ليست ذات صلة بالمناقشة الحالية ويجب نقلها إلى مكان آخر.
+      reason_other_label: أشياء أخرى
+      reason_spam_label: غير مرغوب فيه
+      reason_spam_text: هذا الرد عبارة عن إعلان تجاري
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: لَيْسَتْ هُنَاكَ أَيَّةُ مُشَارَكَةٍ غَيْرُ مَرْغُوبٍ فِيهَا.
+      item_text: "{username} فِي <em>{discussion}</em>"
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_button: مراجعة التحذير
+      flagged_by_text: "تم الاشارة بواسطة {username}"
+      flagged_by_with_reason_text: "تم الاشارة بواسطة {username} على أنها {reason}"
+
+    # These translations are used by the post control buttons.
+    post_controls:
+      flag_button: تَحْذِيرٌ
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: أَشِرْ عَلَى هَذَا الْمَقَالِ
+    flagged_posts: الْمَقَالَاتُ الْمُشَارُ إِلَيْهَا

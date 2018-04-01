@@ -1,0 +1,54 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: إِلْغَاءُ الْمُتَابَعَةِ
+      unignore_button: تَجَاهُلُ الْمُشَارَكَةِ
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} قَامَ بِنَشْرِ"
+
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: مُتَابَعَةُ الْمُشَارَكَاتِ الُّتِي أَقُومُ بِالرَّدِّ فِيهَا تِلْقَائِيًّا
+      notify_new_post_label: أَحَدُهُمْ كَتَبَ رَذًّا فِي إِحْدَى الْمُشَارَكَاتِ الَّتِي أُتَابِعُهَا
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: سَيَتِمُّ إِشْعَارُكَ بِكُلِّ الْمُشَارَكَاتِ وَالرُّدُودِ.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: لَنْ يَتِمَّ إِشْعَارُكَ بِأَيِّ مُشَارَكَةٍ أَوْ رَذٍّ.
+      not_following_button: عَدَمُ الْمُتَابَعَةِ
+      not_following_text: "سَيَتِمُّ إِشْعَارُكَ فَقَطْ إِذَا تَمَّ إِضَافَةُ مُشَارَكَةٍ جَدِيدَةٍ"
+      notify_alert_tooltip: إِرْسَالُ إِشْعَارٍ عِنْدَمَا تَكُونُ هُنَاكَ مُشَارَكَاتٌ جَدِيدَةٌ
+      notify_email_tooltip: إِرْسَالُ رِسَالَةٍ اِلِكْتُرُونِيَّةٍ عِنْدَمَا تَكُونُ هُنَاكَ مُشَارَكَاتٌ جَدِيدَةٌ
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: مُتَابَعَةُ الْمُشَارَكَةِ
+    following: الْمُتَابَعَةُ
+    ignoring: تَجَاهُلٌ

@@ -1,0 +1,84 @@
+flagrow-bazaar:
+    admin:
+        loader:
+            is_loading: מעבד..
+            error: אירעה תקלה. בדוק את עמוד ההיסטוריה ואת ה-Log של Flarum. אל תהסס לדווח לנו על כך. # An error occured. Check the History tab and your Flarum log for details. Don't be afraid to report it to us.
+            refresh: רענן דף
+            report_issue: דווח על בעיה
+        nav:
+            title: Bazaar
+            description: שוק ההרחבות.
+        header:
+            extensions: עיין בהרחבות
+            tasks: היסטוריית משימות
+        modal:
+            settings:
+                title: Flagrow Bazaar
+                field:
+                    apiToken: API token
+                    apiTokenDescription: ה-API TOKEN הזה נחוץ כדי לגשת לAPI של ההרחבות מבית Flagrow. אם כבר מוגדר, אתה מוכן! # This api token is required to access the Flagrow extension api. If already set, you're good to go!
+            connect-bazaar:
+                title: התחבר
+                description: >
+                    חבר את פורום ה-Flarum שלך לחשבון פרטי באתר {host} כדי לקבל תכונות מתקדמות;
+                    כולל לוח בקרה שמציג מידע על כל התקנות ה-Flarum שלך. אנו נרחיב
+                    את התפקיד ונאפשר, לדוגמא, התראות כאשר הפורום מכיל הרחבות לא מעודכנות, או את היכולת
+                    לעדכן את כל התקנות ה-Flarum שלך במרוכז.
+            requirements:
+                file-permissions:
+                    title: הרשאות קבצים
+                    description: >
+                        נראה כי לBazaar אין הרשאות מספקות לכתיבת קבצים ו/או תיקיות,
+                        אנא בדוק את הרשימה להלן. למידע נוסף, בקר ב<a>מרכז המידע</a>.
+                php-memory_limit:
+                    title: הגבלת זכרון
+                    description: >
+                        אנו ממליצים לאפשר לPHP להשתמש בלפחות {required} של זכרון. קובץ ה-php.ini שלך כרגע מאפשר {limit}.
+                        למרות שאני מנסים להגביר את הגבלת הזכרון בזמן הריצה, ההצלחה תלויה בסביבת האחסון שלך.
+                        למידע נוסף, בקר ב<מרכז המידע</a>.
+        page:
+            button:
+                more: עוד
+                install: התקן
+                uninstall: הסר התקנה
+                enable: הפעל
+                disable: השבת
+                update: עדכן
+                connect: חיבור
+                favorite_button: "הרחבה מועדפת"
+                remove_favorite_button: "הסר הרחבה מהמועדפים"
+            extension:
+                installed: ההרחבה מותקנת
+                enabled: ההרחבה מופעלת
+                vendor: מאת {vendor}
+                favorited: אחד מהמועדפים שלך
+                outdated: "ההרחבה אינה מעודכנת, אנא עדכן לגירסא {new}"
+            task:
+                header:
+                    status: מצב
+                    command: פקודה
+                    output: פלט
+                    time: זמן
+                    details: פרטים
+                attribute:
+                    created_at: נוצר ב-
+                    started_at: התחיל ב-
+                    finished_at: הוספק ב-
+                status:
+                    success: הצלחה
+                    exception: אירעה חריגה
+                    working: בתהליכי עבודה
+                    unknown: לא ידוע
+                command:
+                    install: התקן את {extension}
+                    update: עדכן את {extension}
+                    uninstall: הסר את התקנת {extension}
+                group:
+                    today: היום
+                    lastmonth: בחודש האחרון
+                    older: ישן יותר
+        search:
+            placeholder: חפש הרחבות
+            filter_installed: הצג רק הרחבות מותקנות
+            filter_update_required: הצג רק הרחבות עם עדכון זמין
+            filter_favorited: הצג רק הרחבות מועדפות

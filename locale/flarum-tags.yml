@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These translations are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: اللون
+      delete_tag_button: حذف الكلمة الدلالية
+      delete_tag_confirmation: "هل أنت متأكد من أنك تريد حذف هذه الكلمة الدلالية؟ لن يتم حذف مناقشاتها."
+      description_label: وصف
+      hide_label: إخفاء من جميع المناقشات
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: جملة مختصرة
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These translations are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: إدارة قائمة الكلمات الدلالية المتاحة لتنظيم المناقشات بها.
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: السماح بتحرير الكلمة الدلالية
+      restrict_by_tag_heading: تقييد الكلمة الدلالية
+      tag_discussions_label: الكلمات الدلالية للمناقشة
+
+    # These translations are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " إلى "
+      required_primary_heading: العدد المطلوب من العلامات الأساسية
+      required_primary_text: أدخل الحد الأدنى والحد الأقصى لعدد الكلمات الدلالية الأساسية التي يمكن تطبيقها على المناقشة.
+      required_secondary_heading: العدد المطلوب من الكلمات الدلالية الثانوية
+      required_secondary_text: أدخل الحد الأدنى والحد الأقصى لعدد الكلمات الدلالية الثانوية التي يمكن تطبيقها على المناقشة.
+      title: إعدادات الكلمات الدلالية
+
+    # These translations are used in the Tags page.
+    tags:
+      about_tags_text: "تستخدم العلامات لتصنيف المناقشات. تشبه العلامات الأساسية فئات المنتديات التقليدية: يمكن ترتيبها في تسلسل هرمي من مستويين. لا تحتوي العلامات الثانوية على تسلسل هرمي أو ترتيب ، وهي مفيدة للتصنيف المصغر."
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: الكلمات الدلالية الأساسية
+      secondary_heading: الكلمات الدلالية الثانوية
+      settings_button: إعدادات
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "اختر الكلمة الدلالية أساسية|اختر {count} الكلمات الدلالية الأساسية"
+      choose_secondary_placeholder: "اختر كلمة دلالية أخرى|اختر {count} الكلمات الدلالية"
+      edit_title: "تعديل الكلمات الدلالية لـ {title}"
+      submit_button: => core.ref.okay
+      title: اختر كلمة دلالية لمناقشتك
+
+    # These translations are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: اختر الكلمات الدلالية
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: تَعْدِيلُ الْكَلِمَاتِ الدَّلَالِيَّةِ
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      more_link: المزيد...
+      tags_link: => flarum-tags.ref.tags
+      untagged_link: بلا كلمة دلالية
+
+    # These translations are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} أضاف : {tagsAdded}."
+      added_and_removed_tags_text: "{username} أضاف : {tagsAdded} وحذف : {tagsRemoved}."
+      removed_tags_text: "{username} حذف  : {tagsRemoved}."
+      tags_text: "{tags} كلمة دلالية|{tags} كلمات دلالية"
+
+  # Translations in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This translation is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: تم الحذف
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: إنشاء كلمة دلالية
+    name: إسم
+    tags: الْكَلِمَاتُ الدَّلَالِيَّةُ

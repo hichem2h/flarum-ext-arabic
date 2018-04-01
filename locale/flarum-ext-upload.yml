@@ -1,0 +1,92 @@
+flagrow-upload:
+    forum:
+        buttons:
+            attach: צירוף קבצים
+        states:
+            loading: טוען
+            success: הצלחה
+            error: שגיאה
+    admin:
+        templates:
+            image: תבנית ברירת המחדל של הורדת תמונה
+            image_description: >
+                מציג תמונה ממוזערת של התמונה המקורית ומעבד את ההורדה דרך PHP.
+                מאפשר לאסוף נתונים סטטיסטיים והפעלת הגנת Hotlink.
+            file: תבנית ברירת המחדל של הורדת קובץ
+            file_description: >
+                מציג את שם הקובץ וקצת מידע כללי. מעבד את ההורדה דרך
+                PHP, מאפשר לאסוף נתונים סטטיסטיים והפעלת הגנ Hotlink.
+            image-preview: תבנית תצוגה מקדימה של התמונה המלאה
+            image-preview_description: >
+                מציג את התמונה המלאה בשורה. ללא אפשרות הורדה, ללא איסוף נתונים סטטיסטיים
+                והתעלמות מהגנת Hotlink.
+        permissions:
+            upload_label: העלאת קבצים
+            download_label: הורדת קבצים
+        upload_methods:
+            local: מקומי
+            aws-s3: Amazon S3
+            imgur: Imgur
+            ovh-svfs: OVH SVFS
+        labels:
+            preferences:
+                title: הגדרות כלליות
+                max_file_size: משקל מקסימלי (ב-KB)
+                mime_types: הגדרת סוג mime, העלאת מיפוי
+            resize:
+                title: שינוי גודל תמונה
+                toggle: שינוי גודל תמונות
+                max_width: רוחב מקסימלי
+                max_height: גובה מקסימלי
+            watermark:
+                title: הוספת סימן מים לתמונות
+                toggle: הוסף סימן מים לתמונות
+                position: מיקום סימן המים
+                file: העלאת תמונה להטמעה
+            local:
+                title: הגדרות אחסון מקומי
+                cdn_url: כתובת URL התוכן (prefixes files)
+            imgur:
+                title: הגדרות אחסון ב-Imgur
+                client_id: Imgur client ID
+            aws-s3:
+                title: הגדרות אחסון ב-AWS S3
+                key: Key
+                secret: Secret
+                bucket: Bucket
+                region: Region
+            ovh-svfs:
+                title: הגדרות אחסון ב-OVH SVFS
+                container: Container
+                tenantid: Tenant ID
+                username: שם משתמש
+                password: סיסמה
+                region: Region
+            disable-hotlink-protection:
+                title: ביטול הגנת Hotlink
+                toggle: ביטול
+            disable-download-logging:
+                title: ביטול תיעוד הורדות
+                toggle: ביטול                
+        buttons:
+            save: שמירת הגדרות
+        help_texts:
+            description: >
+                הגדר את שירותי ההעלאה והעדפות.
+            mime_types: >
+                הגדר את המיפוי שלך כאן. כל ביטוי רגולרי
+                (regular expression)
+                יטופל על ידי מתאם העלאה ותבנית הורדה ספציפיים.
+            resize: >
+                בחר האם לשנות את גודל התמונות לפני שהן מועלות. תוכל לבחור
+                גובה ורוחב מקסימליים, בפיקסלים. תהליך שינוי הגודל
+                שומר על יחד המימדים (גובה-רוחב) של התמונות.
+            watermark: >
+                בחר האם ברצונך להוסיף לתמונות סימן מים (watermark) במהלך ההעלאה.
+                סימן המים מתווסף לקבצים שאינם מסוג GIF לפי ההעדפות המוגדרות מטה.
+            disable-hotlink-protection: >
+                הגנת Hotlink מונעת פתיחת הורדות מאתרים אחרים. השיטה
+                הנוכחית דורשת csrf token ו-post id.
+            disable-download-logging: >
+                בטל את תיעוד ההורדות של המשתמשים בפורום שלך. אם תשאיר את התיעוד מופעל,
+                תוכל לצפות במספר ההורדות של הקובץ ובמספר מדידות נוספות בעתיד הקרוב.

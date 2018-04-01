@@ -1,0 +1,25 @@
+{
+    "name": "lb308/flarum-ext-arabic",
+    "type": "flarum-extension",
+    "description": "تعريب الفلاروم",
+    "keywords": ["locale"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "الْعَرَبِيَّةُ",
+            "icon": {
+                "image": "icon.png",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "ar",
+            "title": "الْعَرَبِيَّةُ"
+		}
+    }
+}

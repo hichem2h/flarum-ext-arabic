@@ -1,0 +1,12 @@
+flarum-tashkeel:
+    admin:
+        permissions:
+            tashkeel: => flarum-tashkeel.ref.tashkeel
+    forum:
+        this_tashkeel: "تشكيل"
+        remove_tashkeel: "قم بإزالة المشاركة كتشكيل حاليا"
+        header_tashkeel: "تم وضع علامة كتشكيل بواسطة كاتب المشاركة  "
+        tashkeel_button: => flarum-tashkeel.ref.tashkeel
+        tashkeel: => flarum-tashkeel.ref.tashkeel
+    ref:
+      tashkeel: 'تشكيل'
