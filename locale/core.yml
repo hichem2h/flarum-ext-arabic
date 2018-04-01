@@ -9,9 +9,9 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "إذا كنت مطورًا ، فيمكنك <a> قراءة المستندات </a> والحصول على إمكانية إنشاء إضافاتك الخاصة."
-      install_text: "في هذه الأثناء ، يمكنك البحث عن الإضافات في <a> موقع Flarum Community </a> وتثبيتها يدويًا باستخدام الملحن."
-      temporary_text: "يوم واحد في المستقبل غير البعيد ، سيسمح لك مربع الحوار هذا بإضافة إضافة إلى المنتدى الخاص بك بكل سهولة. نحن نبني نظامًا بيئيًا ونحن نتكلم!"
+      developer_text: "إذا كنت مطورا ، فيمكنك <a> قراءة المستندات </a> والحصول على إمكانية إنشاء إضافاتك الخاصة."
+      install_text: "في هذه الأثناء ، يمكنك البحث عن الإضافات في <a> موقع Flarum Community </a> وتثبيتها يدويا باستخدام الملحن."
+      temporary_text: "يوم واحد في المستقبل غير البعيد ، سيسمح لك مربع الحوار هذا بإضافة إضافة إلى المنتدى الخاص بك بكل سهولة. نحن نبني نظاما بيئيا ونحن نتكلم!"
       title: أضف ملحقا
 
     # These translations are used in the Appearance page.
@@ -30,7 +30,7 @@ core:
       favicon_heading: فافيكون
       favicon_text: قم بتحميل صورة ليتم عرضها كأيقونة الاختصار الخاصة بالمنتدى.
       logo_heading: شعار
-      logo_text: قم بتحميل صورة ليتم عرضها بدلاً من عنوان المنتدى.
+      logo_text: قم بتحميل صورة ليتم عرضها بدلا من عنوان المنتدى.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
@@ -45,7 +45,7 @@ core:
       saved_message: تم حفظ التغييرات الخاصة بك.
       show_language_selector_label: إظهار محدد اللغة
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: مرحبًا بانر
+      welcome_banner_heading: مرحبا بانر
       welcome_banner_text: قم بتكوين النص الذي يظهر في الشعار في صفحة جميع المناقشات. استخدم هذا للترحيب بالضيوف في منتداك.
 
     # These translations are used in the Dashboard page.
@@ -125,7 +125,7 @@ core:
       email_button: => core.ref.email
       email_text: "تكوين إعدادات البريد الإلكتروني في المنتدى الخاص بك."
       extensions_button: ملحقات
-      extensions_text: أضف وظائف إضافية إلى منتداك واجعله ملكًا لك.
+      extensions_text: أضف وظائف إضافية إلى منتداك واجعله ملكا لك.
       permissions_button: صلاحيات
       permissions_text: تكوين من يستطيع أن يرى ويفعل ما.
 
@@ -186,7 +186,7 @@ core:
     # These translations are used in the Change Password modal dialog.
     change_password:
       send_button: إرسال كلمة المرور إعادة تعيين البريد الإلكتروني
-      text: انقر على الزر أدناه وتحقق من بريدك الإلكتروني بحثًا عن رابط لتغيير كلمة المرور.
+      text: انقر على الزر أدناه وتحقق من بريدك الإلكتروني بحثا عن رابط لتغيير كلمة المرور.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
@@ -220,8 +220,8 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: حِسَابُكَ غَيْرُ مُفَعَّلٍ بَعْدُ
-      cannot_reply_text: مَعَ الْأَسَفِ, لَا تَسْتَطِيعُ ِالرَّدَّ عَلَى هَذِهِ الْمُشَارَكَةِ, تَفَضَّلْ بِتَفْعِيلِ حِسَابِكَ عَبْرَ رِسَالَةِ التَّفْعِيلِ الْمُرْسَلَةِ إِلَى بَرِيدِكَ الْإِلِكُتُرُونِيِّ.
+      cannot_reply_button: حسابك غير مفعل بعد
+      cannot_reply_text: مع الأسف, لا تستطيع الرد على هذه المشاركة, تفضل بتفعيل حسابك عبر رسالة التفعيل المرسلة إلى بريدك الإلكتروني.
       delete_button: => core.ref.delete
       delete_confirmation: "هل أنت متأكد من أنك تريد حذف هذه المناقشة؟"
       delete_forever_button: => core.ref.delete_forever
@@ -232,11 +232,11 @@ core:
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: لَيْسَتْ هُنَاكَ أَيَّةُ مُشَارَكَاتٍ.
+      empty_text: ليست هناك أية مشاركات.
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: مَيِّزْ هَذِهِ الْمُشَارَكَةِ عَلَى أَنَّهَا مَقْرُوءَةٌ
-      replied_text: "{username} قَامَ بِالْمُشَارَكَةِ {ago}"
-      started_text: "{username} أَلَّفَ الْمُشَارَكَةَ {ago}"
+      mark_as_read_tooltip: ميز هذه المشاركة على أنها مقروءة
+      replied_text: "{username} قام بالمشاركة {ago}"
+      started_text: "{username} ألف المشاركة {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -259,36 +259,36 @@ core:
       email_sent_message: لقد أرسلنا إليك رسالة بريد إلكتروني تحتوي على رابط لإعادة تعيين كلمة المرور الخاصة بك. تحقق من مجلد الرسائل غير المرغوب فيها إذا لم تستلمها في الدقيقة أو اليومين التاليين.
       not_found_message: لا يوجد مستخدم مسجل مع عنوان البريد الإلكتروني هذا.
       submit_button: إستعادة كلمة المرور
-      text: أدخل عنوان بريدك الإلكتروني وسنرسل لك رابطًا لإعادة تعيين كلمة المرور الخاصة بك.
+      text: أدخل عنوان بريدك الإلكتروني وسنرسل لك رابطا لإعادة تعيين كلمة المرور الخاصة بك.
       title: هل نسيت كلمة المرور
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: إِدَارَةُ الْمُنْتَدَى
-      back_to_index_tooltip: الْعَوْدَةُ إِلَى قَائِمَةِ الْمُشَارَكَاتِ
+      admin_button: إدارة المنتدى
+      back_to_index_tooltip: العودة إلى قائمة المشاركات
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: الْمِلَفُّ الشَّخْصِيُّ
-      search_placeholder: الْبَحْثُ فِي الْمُنْتَدَى
+      profile_button: الملف الشخصي
+      search_placeholder: البحث في المنتدى
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: لَا يُسْمَحُ لَكَ بِالْمُشَارَكَةِ
-      mark_all_as_read_confirmation: "هَلْ أَنْتَ مُتَأَكِّدٌ مِنْ أَنَّكَ تُرِيدُ وَضْعَ عَلَامَةٍ عَلَى كُلِّ الْمُشَارَكَاتِ عَلَى أَنَّهَا مَقْرُوءَةٌ؟"
+      cannot_start_discussion_button: لا يسمح لك بالمشاركة
+      mark_all_as_read_confirmation: "هل أنت متأكد من أنك تريد وضع علامة على كل المشاركات على أنها مقروءة؟"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: تَحْدِيثُ الْمُشَارَكَاتِ
+      refresh_tooltip: تحديث المشاركات
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: الْأَخِيرَةُ
-      newest_button: الْجَدِيدَةُ
-      oldest_button: الْقَدِيمَةُ
-      relevance_button: الْأَكْثَرُ قِرَاءَةً
-      top_button: الْمُفَضَّلَةُ
+      latest_button: الأخيرة
+      newest_button: الجديدة
+      oldest_button: القديمة
+      relevance_button: الأكثر قراءة
+      top_button: المفضلة
 
     # These translations are used in the Log In modal dialog.
     log_in:
@@ -303,17 +303,17 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "قَامَ {username} بِتَغْيِيرِ الْعُنْوَانِ"
-      empty_text: لَيْسَ هُنَاكَ أَيُّ إِشْعَارٍ.
+      discussion_renamed_text: "قام {username} بتغيير العنوان"
+      empty_text: ليس هناك أي إشعار.
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: عُدِّلَتْ
-      edited_tooltip: "{username} قَامَ بِتَعْدِيلِ هَذِهِ الْمُشَارَكَةِ {ago}"
-      number_tooltip: "مَجْمُوعُ الرُّدُودِ #{number}"
+      edited_text: عدلت
+      edited_tooltip: "{username} قام بتعديل هذه المشاركة {ago}"
+      number_tooltip: "مجموع الردود #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -324,10 +324,10 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: الْمُشَارَكَةُ الْآَخِيرَةُ
-      original_post_link: الْمُشَارَكَةُ الْأَصْلِيَّةُ
-      unread_text: "{count} مُشَارَكَةٍ غَيْرُ مَقْرُوءَةٍ|مُشَارَكَةٌٍ وَاحِدَةٌ غَيْرُ مَقْرُوءَةٍ"
-      viewing_text: "الْمُشَارَكَةُ {index} مِنْ بَيْنِ {count} مُشَارَكَاتٍ|مُشَارَكةٌ وَاحِدَةٌ فَقَطْ"
+      now_link: المشاركة الآخيرة
+      original_post_link: المشاركة الأصلية
+      unread_text: "{count} مشاركة غير مقروءة|مشاركة واحدة غير مقروءة"
+      viewing_text: "المشاركة {index} من بين {count} مشاركات|مشاركة واحدة فقط"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
@@ -339,58 +339,58 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: إِعَادَةُ تَسْمِيَةِ الْمُشَارَكَةِ
+      title: إعادة تسمية المشاركة
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'الْبَحْثُ فِي جَمِيعِ الْمُشَارَكَاتِ عَنْ "{query}"'
+      all_discussions_button: 'البحث في جميع المشاركات عن "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: الْمُشَارِكُونَ
+      users_heading: المشاركون
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: الْحِسَابُ
+      account_heading: الحساب
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
-      notify_by_web_heading: الشَّبَكَةُ
-      notify_discussion_renamed_label: أَحَدُهُمْ قَامَ بِإِعَادَةِ تَسْمِيَةِ عُنْوَانِ إِحْدَى مُشَارَكَاتِي
-      privacy_disclose_online_label: السَّمَاحُ لِلْآخَرِينَ بِرُؤْيَتِي عِِنْدَمَا أَكُونُ مُتَوَاجِدًا فِي الْمُنْتَدَى
-      privacy_heading: الْخُصُوصِيَّةُ
+      notify_by_web_heading: الشبكة
+      notify_discussion_renamed_label: أحدهم قام بإعادة تسمية عنوان إحدى مشاركاتي
+      privacy_disclose_online_label: السماح للآخرين برؤيتي عندما أكون متواجدا في المنتدى
+      privacy_heading: الخصوصية
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "هَلْ لَدَيْكَ اشْتِرَاكٌ؟ <a>تَفَضَّلْ بِالدُّخُولِ</a>"
+      log_in_text: "هل لديك اشتراك؟ <a>تفضل بالدخول</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "أَهْلًا وَسَهْلًا بِكَ يَا {username}!, حَيَّاكَ اللهُ"
+      welcome_text: "أهلا وسهلا بك يا {username}!, حياك الله"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: حَذْفٌ
-      avatar_upload_button: رَفْعٌ
-      avatar_upload_tooltip: رَفْعُ صُورَةٍ جَدِيدَةٍ
-      bio_placeholder: أُكْتُبْ شَيْئًا عَنْ نَفْسِكَ
+      avatar_remove_button: حذف
+      avatar_upload_button: رفع
+      avatar_upload_tooltip: رفع صورة جديدة
+      bio_placeholder: أكتب شيئا عن نفسك
       discussions_link: => core.ref.discussions
-      in_discussion_text: "عُنْوَانُ الْمُشَارَكَةِ : {discussion}"
-      joined_date_text: "إِنْضَمَّ إِلَى الْمُنْتَدَى {ago}"
-      online_text: مُتَوَاجِِدٌ     
+      in_discussion_text: "عنوان المشاركة : {discussion}"
+      joined_date_text: "إنضم إلى المنتدى {ago}"
+      online_text: متواجد     
       posts_load_more_button: => core.ref.load_more
-      posts_link: مَجْمُوعُ الرُّدُودِ
+      posts_link: مجموع الردود
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: عَمَلِيَّاتٌ
+      button: عمليات
       delete_button: => core.ref.delete
-      delete_confirmation: "هَلْ أَنْتَ وَاثِقٌ مِنْ أَنَّكَ تُرِيدُ حَذْفَ هَذَا الْمُشْتَرِكِ؟ سَيَتِمُّ حَذْفُ جَمِيعَ مُشَاَرَكاتِهِ."
+      delete_confirmation: "هل أنت واثق من أنك تريد حذف هذا المشترك؟ سيتم حذف جميع مشاركاته."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
@@ -435,12 +435,12 @@ core:
     content:
       javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
       load_error_message: Something went wrong while trying to load the full version of this site.
-      loading_text: فِي طَوْرِ التَّحْمِيلِ...
+      loading_text: في طور التحميل...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: الصَّفْحَةُ التَّالِيَةُ
+      previous_page_button: الصفحة التالية
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -456,7 +456,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "لَا يُسْمَحُ إِلَّا بِاسْتِعْمَالِ الْحُرُوفِ وَالْأَرْقَامِ الْعَرَبِيَّةِ فَقَطْ"
+    invalid_username_message: "لا يسمح إلا باستعمال الحروف والأرقام العربية فقط"
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -506,36 +506,36 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: جَمِيعُ الْمُشَارَكَاتِ
-    change_email: تَغْيِيرُ الْبَرِيدِ الْإِلِكُتُرُونِيِّ
-    change_password: تَغْيِيرُ كَلِمَةِ الْمُرُورِ
-    confirm_password: تَأْكِيدُ كَلِمَةِ الْمُرُورِ
-    confirmation_email_sent: "لَقَدْ أَرْسَلْنَا رِسَالَةَ تَأْكِيدٍ إِلِكْتُرُونِيَّةٍ إِلَى {email}. إِذَا لَمْ تَصِلْ قَرِيبًا ، فَتَحَقَّقْ مِنْ مُجَلَّدِ الرَّسَائِلِ الْغَيْرِ الْمَرْغُوبِ فِيهَا."
-    delete: حَذْفٌ
-    delete_forever: حَذْفٌ نِهَائِيٌّ
-    discussions: مَجْمُوعُ الْمُشَارَكَاتِ
-    edit: تَعْدِيلٌ
-    email: الْبَرِيدُ الْإِلِكْتُرُونِيُّ
-    load_more: عَرْضُ الْمَزِيدِ
-    log_in: وُلُوجٌ
-    log_out: خُرُوجٌ
-    mark_all_as_read: جَعْلُ الْمُشَارَكَاتِ مَقْرُوءَةً
-    next_page: الصَّفْحَةُ التَّالِيَةُ
-    notifications: الْإِشْعَارَاتُ
-    okay: مُوَافِقٌ                                     # Referenced by flarum-tags.yml
-    password: كَلِمَةُ الْمُرُورِ
-    rename: تَغْيِيرُ عُنْوَانِ الْمُشَارَكَةِ
-    reply: كِتَابةُ رَدٍّ                                 # Referenced by flarum-mentions.yml
-    reset_your_password: إِسْتِعَادَةُ كَلِمَةِ الْمُرُورِ
-    restore: إِسْتِعَادَةٌ
-    save_changes: حِفْظُ التَّغْيِيرَاتِ                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: الْإِعْدَادَاتُ
-    sign_up: دُخُـــولٌ
-    some_others: "{count} أُخْرَى|{count} أُخَرُ"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: هَلْ لَدَيْكَ سُـــــؤَالٌ؟
-    username: إِسْمُ الْمُسْتَخْدِمِ
-    write_a_reply: أُكْتُبْ رَدَّكَ...
-    you: أَنْتَ                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    all_discussions: جميع المشاركات
+    change_email: تغيير البريد الإلكتروني
+    change_password: تغيير كلمة المرور
+    confirm_password: تأكيد كلمة المرور
+    confirmation_email_sent: "لقد أرسلنا رسالة تأكيد إلكترونية إلى {email}. إذا لم تصل قريبا ، فتحقق من مجلد الرسائل الغير المرغوب فيها."
+    delete: حذف
+    delete_forever: حذف نهائي
+    discussions: مجموع المشاركات
+    edit: تعديل
+    email: البريد الإلكتروني
+    load_more: عرض المزيد
+    log_in: ولوج
+    log_out: خروج
+    mark_all_as_read: جعل المشاركات مقروءة
+    next_page: الصفحة التالية
+    notifications: الإشعارات
+    okay: موافق                                     # Referenced by flarum-tags.yml
+    password: كلمة المرور
+    rename: تغيير عنوان المشاركة
+    reply: كتابة رد                                 # Referenced by flarum-mentions.yml
+    reset_your_password: إستعادة كلمة المرور
+    restore: إستعادة
+    save_changes: حفظ التغييرات                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: الإعدادات
+    sign_up: دخـــول
+    some_others: "{count} أخرى|{count} أخر"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: هل لديك ســـــؤال؟
+    username: إسم المستخدم
+    write_a_reply: أكتب ردك...
+    you: أنت                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -543,11 +543,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: مُشْرِفٌ
-    admins: الْمُشْرِفُونَ
-    guest: زَائِرْ
-    guests: زُوَّارٌ
-    member: مُشَارِكٌ
-    members: الْمُشَارِكُونَ
-    mod: مُرَاقِبٌ
-    mods: الْمُرَاقِبُونَ
+    admin: مشرف
+    admins: المشرفون
+    guest: زائر
+    guests: زوار
+    member: مشارك
+    members: المشاركون
+    mod: مراقب
+    mods: المراقبون

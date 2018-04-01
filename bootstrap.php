@@ -2,6 +2,7 @@
 
 use Flarum\Event\ConfigureLocales;
 use Flarum\Event\ConfigureClientView;
+use Flarum\Locale\LocaleManager;
 use Illuminate\Contracts\Events\Dispatcher;
 
 return function (Dispatcher $events) {
@@ -11,10 +12,13 @@ return function (Dispatcher $events) {
 
     //Add assets
     $events->listen(ConfigureClientView::class,  function(ConfigureClientView $event) {
-	if ($event->isForum()) {
+      $locales = app(LocaleManager::class);
+
+      if ($event->isForum() && $locales->getLocale() == "ar") {
            $event->addAssets([
               __DIR__ . '/less/forum/extension.less'
            ]);
         }
     });
 };
+

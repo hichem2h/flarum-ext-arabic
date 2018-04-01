@@ -69,7 +69,7 @@ flarum-tags:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: تَعْدِيلُ الْكَلِمَاتِ الدَّلَالِيَّةِ
+      edit_tags_button: تعديل الكلمات الدلالية
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -98,4 +98,4 @@ flarum-tags:
   ref:
     create_tag: إنشاء كلمة دلالية
     name: إسم
-    tags: الْكَلِمَاتُ الدَّلَالِيَّةُ
+    tags: الكلمات الدلالية

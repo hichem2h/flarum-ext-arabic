@@ -23,8 +23,8 @@ moment.locale('ar', {
     },
     relativeTime : {
         future : 'في %s',
-        past : 'مُنْذٌ %s',
-        s : 'ثَوَانٍ',
+        past : 'منذ %s',
+        s : 'ثوان',
         ss : '%d ثانية',
         m : 'دقيقة',
         mm : '%d دقائق',

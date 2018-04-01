@@ -9,7 +9,7 @@ flarum-sticky:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      sticky_discussions_label: مُشَارَكَةٌ مُثَبَّتَةٌ
+      sticky_discussions_label: مشاركة مثبتة
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -21,12 +21,12 @@ flarum-sticky:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       sticky_button: => flarum-sticky.ref.sticky
-      unsticky_button: عَدَمُ تَثْبِيتِ الْمُشَارَكَةِ
+      unsticky_button: عدم تثبيت المشاركة
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_stickied_text: "{username} ثَبَّتَ الْمُشَارَكَةَ"
-      discussion_unstickied_text: "{username} أَزَالَ تَثْبِيتَ الْمُشَارَكَةِ"
+      discussion_stickied_text: "{username} ثبت المشاركة"
+      discussion_unstickied_text: "{username} أزال تثبيت المشاركة"
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -34,4 +34,4 @@ flarum-sticky:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    sticky: تَثْبِيتُ الْمُشَارَكَةِ
+    sticky: تثبيت المشاركة
