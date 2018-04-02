@@ -1,5 +1,5 @@
 {
-    "name": "flarum-ext-arabic",
+    "name": "elite-devs/flarum-ext-arabic",
     "type": "flarum-extension",
     "description": "تعريب الفلاروم",
     "keywords": ["locale"],
@@ -9,7 +9,7 @@
     },
     "extra": {
         "flarum-extension": {
-            "title": "الْعَرَبِيَّةُ",
+            "title": "العربية",
             "icon": {
                 "image": "icon.png",
                 "backgroundColor": "#00247d",
@@ -19,7 +19,7 @@
         },
         "flarum-locale": {
             "code": "ar",
-            "title": "الْعَرَبِيَّةُ"
+            "title": "العربية"
 		}
     }
 }

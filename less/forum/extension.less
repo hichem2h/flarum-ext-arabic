@@ -62,14 +62,14 @@
 	}
 	.IndexPage .DiscussionListItem-title,
 	.UserPage .DiscussionListItem-title {
-		margin-right: 0; margin-left: 155px;
+		margin-right: 0 !important; margin-left: 155px;
 	}
 	.DiscussionListItem {
 		margin-right: -15px; margin-left: -15px; padding-right: 15px; padding-left: 25px;
 	}
 	.IndexPage .DiscussionListItem-info>.item-tags,
 	.UserPage .DiscussionListItem-info>.item-tags {
-		right: auto; left: 80px;
+		right: auto !important; left: 80px;
 	}
 	.DiscussionListItem-count {
 		margin-right: 0; margin-left: -70px; padding-left: 0; padding-right: 21px;
@@ -124,6 +124,18 @@
 .Button-icon {
 	margin-left: 7px; margin-right: 0;
 }
+
+
+.NotificationList-header .Button {
+    float: left;
+}
+.Dropdown-menu--right {
+	left: 0;
+	right: auto;
+}
+
+
+
 .Dropdown-menu>li>a .Button-icon,
 .Dropdown-menu>li>button .Button-icon,
 .Dropdown-menu>li>span .Button-icon {
@@ -497,3 +509,4 @@ button.Button.Button--primary.EditSocialButtons-save {
 .Post-footer .item-bestAnswerPost .item-bestAnswerButton a {
 	float: left;
 }
+
