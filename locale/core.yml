@@ -185,7 +185,7 @@ core:
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: إرسال كلمة المرور إعادة تعيين البريد الإلكتروني
+      send_button: إرسال الرابط
       text: انقر على الزر أدناه وتحقق من بريدك الإلكتروني بحثا عن رابط لتغيير كلمة المرور.
       title: => core.ref.change_password
 
@@ -331,11 +331,11 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'العنوان القديم كان: "{old}"'
+      discussion_renamed_text: "{username} قام بتغيير العنوان {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} لاحقا"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
@@ -396,45 +396,45 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: أرسل بريد التأكيد
+      sent_message: تم الإرسال
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: مخفي
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[محذوف]"
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "حدث خطأ ما. من فضلك أعد تحديث الصفحة."
+      not_found_message: طلبك غير موجود.
+      permission_denied_message: لا تملك الصلاحية للدخول.
+      rate_limit_exceeded_message: لا تتسرع. جرب بعد بضع ثوان.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
-      kilo_text: K
-      mega_text: M
+      kilo_text: ألف
+      mega_text: مليون
 
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, و {third}"
+      two_text: "{first} و {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site.
+      javascript_disabled_message: هدا الموقع يظهر أفضل في المتصفحات الحديثة مع جافاسكريبت مفعلة.
+      load_error_message: حدث مشكل أثناء تحميل الصفحة كاملة.
       loading_text: في طور التحميل...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -451,7 +451,7 @@ core:
     reset:
       confirm_password_label: => core.ref.confirm_password
       password_label: => core.ref.password
-      submit_button: Reset Password
+      submit_button: أعد تعيين كلمة المرور
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -463,42 +463,42 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: تفعيل الحساب
       body: |
-        Hey {username}!
+        اهلا {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        أحدهم قام بالتسجيل في {forum} باستعمال هدا البريد الإلكتروني.
 
-        If this was you, simply click the following link and your account will be activated:
+        اذا كان هذا أنت, اضغط على الرابط التالي للتفعيل:
         {url}
 
-        If you did not sign up, please ignore this email.
+        اذا لم تقم بالتسجيل, فقط تجاهل هذا البريد.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: تأكيد البريد الالكتروني الجديد
       body: |
-        Hey {username}!
+        اهلا {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        أحدهم قام بالتسجيل في {forum} باستعمال هدا البريد الإلكتروني.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        اذا كان هذا أنت, اضغط على الرابط التالي للتفعيل:
         {url}
 
-        If this was not you, please ignore this email.
+        اذا لم تقم بالتسجيل, فقط تجاهل هذا البريد.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+    اهلا {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        أحدهم طلب كلمة المرور على {forum}.
 
-        If this was you, click the following link to reset your password:
+        اذا كان هذا أنت, اضغط على الرابط التالي للتفعيل:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        اذا لم تقم بذلك, فقط تجاهل هذا البريد.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
