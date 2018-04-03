@@ -517,7 +517,7 @@ core:
     edit: تعديل
     email: البريد الإلكتروني
     load_more: عرض المزيد
-    log_in: ولوج
+    log_in: دخول
     log_out: خروج
     mark_all_as_read: جعل المشاركات مقروءة
     next_page: الصفحة التالية
@@ -530,9 +530,9 @@ core:
     restore: إستعادة
     save_changes: حفظ التغييرات                   # Referenced by flarum-suspend.yml, flarum-tags.yml
     settings: الإعدادات
-    sign_up: دخـــول
+    sign_up: تسجيل
     some_others: "{count} أخرى|{count} أخر"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: هل لديك ســـــؤال؟
+    start_a_discussion: موضوع جديد
     username: إسم المستخدم
     write_a_reply: أكتب ردك...
     you: أنت                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
