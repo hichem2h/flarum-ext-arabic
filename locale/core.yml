@@ -491,7 +491,7 @@ core:
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-    اهلا {username}!
+        اهلا {username}!
 
         أحدهم طلب كلمة المرور على {forum}.
 
