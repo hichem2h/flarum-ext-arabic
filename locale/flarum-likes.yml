@@ -22,7 +22,7 @@ flarum-likes:
     # These translations are displayed beneath individual posts.
     post:
       like_link: اعجاب
-      liked_by_self_text: "{users} أعجبه"  # Can be pluralized to agree with the number of users!
+      liked_by_self_text: "{users} أعجبهم|اعجبك"  # Can be pluralized to agree with the number of users!
       liked_by_text: "{users} أعجبهم|{users} أعجبه"
       others_link: => core.ref.some_others
       unlike_link: إلغاء الإعجاب
@@ -34,4 +34,4 @@ flarum-likes:
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_liked_label: أحدهم أعجب بمنشورك
+      notify_post_liked_label: أحدهم أعجب بمنشورك  
