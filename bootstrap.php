@@ -22,6 +22,8 @@ return function (Dispatcher $events) {
            $event->addAssets([
               __DIR__ . '/less/forum/extension.less'
            ]);
+	   // change the html dir tag from ltr to rtl 
+	   $event->view->direction = 'rtl';   
         }
     });
 };
